@@ -9,4 +9,4 @@ jobs:
       - name: Install deps
         run: npm ci
       - name: Lint
-        run: nmp run lint
+        uses: Bidaya0/sql-lint-in-action@v0.0.3
